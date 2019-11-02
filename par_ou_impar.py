@@ -8,9 +8,9 @@ for i in range(n):
         numeros_par.append(numero)
     else:
         numeros_impar.append(numero)
-        
-numeros_par.sort(reverse=True)'''Ordenando em Pilha'''
-numeros_impar.sort(reverse=True)'''Ordenando em Pilha'''
+
+numeros_par.sort(reverse=True)#Ordenando em Pilha
+numeros_impar.sort(reverse=True)
 
 print("Numeros pares:")
 for par in numeros_par:
