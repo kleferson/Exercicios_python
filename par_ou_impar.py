@@ -8,10 +8,13 @@ for i in range(n):
         numeros_par.append(numero)
     else:
         numeros_impar.append(numero)
-numeros_par.sort()
-numeros_impar.sort(reverse=True)
+numeros_par.sort(reverse=True)'''Ordenando em Pilha'''
+numeros_impar.sort(reverse=True)'''Ordenando em Pilha'''
 
+print("Numeros pares:")
 for par in numeros_par:
     print(par)
+
+print("Numeros impares:")    
 for impar in numeros_impar:
     print(impar)
